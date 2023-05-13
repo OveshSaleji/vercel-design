@@ -1,0 +1,2557 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible"
+        content="IE=edge" />
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0" />
+  <title>E-commerce</title>
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet"
+        href="assets/Bootstrap/css/bootstrap.min.css" />
+  <!-- Font-awesome -->
+  <link rel="stylesheet"
+        href="assets/font/font-awesom/css/all.min.css" />
+  <!-- Swiper Css -->
+  <link rel="stylesheet"
+        href="assets/swiper/swiper-bundle.min.css" />
+  <!-- Custom Css -->
+  <link rel="stylesheet"
+        href="assets/css/style.css" />
+  <!-- Responsive Css -->
+  <link rel="stylesheet"
+        href="assets/css/responsive.css" />
+
+
+  <!-- Favicon -->
+  <link rel="shortcut icon"
+        href="assets/Images/fav-icon.png"
+        type="image/x-icon">
+</head>
+
+<body>
+  <!-- ========================================
+                    Top-header
+    ========================================= -->
+
+  <div class="top-header bg-dark text-white d-flex justify-content-around align-items-center">
+    <div class="d-flex align-items-center custom-lang">
+      <p class="mb-0">
+        Summer Sale For All Swim Suits And Free Express Delivery OFF 50%!
+      </p>
+      <a href="index.html"
+         class="text-white fw-bold">ShopNow</a>
+    </div>
+    <div class="dropdown custom-btn-head">
+      <button class="btn btn-secondary dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+        Language
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item"
+             href="#">English</a></li>
+        <li><a class="dropdown-item"
+             href="#">Hindi</a></li>
+        <li><a class="dropdown-item"
+             href="#">Gujarati</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- ========================================
+                    Navbar
+    ========================================= -->
+  <!-- Navbar Start -->
+  <div class="head-border">
+    <nav class="navbar navbar-expand-lg mb-3">
+      <div class="container">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand custom-nav-brand"
+           href="index.html">Exclusive</a>
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="true"
+                aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+        <!-- aria-expanded="false" -->
+
+        <div class="collapse navbar-collapse"
+             id="navbarScroll">
+          <!-- Navbar-Head -->
+
+          <ul class="navbar-nav mx-auto my-2 my-lg-0"
+              style="--bs-scroll-height: 100px">
+            <li class="nav-item">
+              <a class="nav-link active custom-nav attr"
+                 aria-current="page"
+                 href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-nav attr"
+                 aria-current="page"
+                 href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-nav attr"
+                 aria-current="page"
+                 href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-nav attr"
+                 aria-current="page"
+                 href="account.html">Sign up</a>
+            </li>
+          </ul>
+          <form class="d-flex align-items-center gap-4 custom-search"
+                role="search">
+
+            <div class="search-box">
+              <input class="search-input"
+                     type="text"
+                     placeholder="What are you looking for?">
+              <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+
+
+
+            <!--  -->
+            <div class="fav-icon">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <div class="shop-icon">
+              <a href="wishlist.html"><i class="fa-solid fa-cart-plus text-dark"></i></a>
+            </div>
+            <div class="dropdown">
+              <button class="custom-profile"
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-mdb-toggle="dropdown"
+                      aria-expanded="false">
+                <i class="fa-solid fa-user"></i>
+              </button>
+              <ul class="dropdown-menu drop-pos"
+                  aria-labelledby="dropdownMenuButton">
+                <li>
+                  <i class="fa-regular fa-user"></i>
+                  <a class="dropdown-item"
+                     href="#">Manage My Account</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-bag-shopping"></i>
+                  <a class="dropdown-item"
+                     href="#">My Order</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-xmark"></i>
+                  <a class="dropdown-item"
+                     href="#">My Cancellations</a>
+                </li>
+                <li>
+                  <i class="fa-regular fa-star"></i>
+                  <a class="dropdown-item"
+                     href="#">My Reviews</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-right-from-bracket"></i>
+                  <a class="dropdown-item"
+                     href="#">Logout</a>
+                </li>
+              </ul>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ========= Banner Section Start============ -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 custom-slide-option">
+        <ul class="">
+          <li class="d-flex justify-content-between">
+            <div>
+              <a href="#">Woman's Fashion</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </li>
+          <li class="d-flex justify-content-between">
+            <div>
+              <a href="#">Men's Fashion</a>
+            </div>
+            <div>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </li>
+          <li><a href="#">Electronics</a></li>
+          <li><a href="#">Home & Lifestyle</a></li>
+          <li><a href="#">Medicine</a></li>
+          <li><a href="#">Sports & Outdoor</a></li>
+          <li><a href="#">Baby's & Toys</a></li>
+          <li><a href="#">Groceries & Pets</a></li>
+          <li><a href="#">Health & Beauty</a></li>
+        </ul>
+      </div>
+
+      <!-- Swiper Slider -->
+
+      <div class="col-lg-9">
+        <div class="swiper custom-swiper-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swi-img-iphone">
+              <img src="assets/Images/iphone.png"
+                   class="custom-img-head"
+                   alt="slider" />
+              <div class="swiper-caption">
+                <p>
+                  <span><i class="fa-brands fa-apple"></i></span> iPhone 14 Series
+                </p>
+                <h2>Up to 10%<br />off Voucher</h2>
+                <div class="shop-now d-flex align-items-center">
+                  <a href="index.html"
+                     class="">Shop Now</a>
+                  <i class="fa-solid fa-arrow-right ps-3"></i>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/Images/Slider-five.jpg"
+                   class="custom-img-head "
+                   alt="slider" />
+              <div class="swiper-caption">
+                <p>
+                  <span><i class="fa-solid fa-keyboard"></i></span> Keyboard
+                </p>
+                <h2>Up to 10%<br />off Voucher</h2>
+                <div class="shop-now d-flex align-items-center">
+                  <a href="index.html"
+                     class="">Shop Now</a>
+                  <i class="fa-solid fa-arrow-right ps-3"></i>
+                </div>
+              </div>
+              <!--  -->
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/Images/Slider-eight.jpg"
+                   alt=""
+                   class=""
+                   loading="lazy" />
+              <div class="swiper-caption">
+                <p class="text-dark"><span>Bluetooth</span></p>
+                <h2 class="text-dark">
+                  Up to 20% <br />
+                  off Voucher
+                </h2>
+                <div class="shop-now d-flex align-items-center text-dark">
+                  <a href="index.html"
+                     class="text-dark">Shop Now</a>
+                  <i class="fa-solid fa-arrow-right ps-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/Images/Slider-seven.jpg"
+                   alt="slider-img"
+                   class="" />
+              <div class="swiper-caption">
+                <p>
+                  <span><i class="fa-solid fa-camera"></i></span>Camera
+                </p>
+                <h2>
+                  Up to 25% <br />
+                  off Voucher
+                </h2>
+                <div class="shop-now d-flex align-items-center">
+                  <a href="index.html"
+                     class="">Shop Now</a>
+                  <i class="fa-solid fa-arrow-right ps-3"></i>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/Images/Slider-eight.jpg"
+                   alt="" />
+              <div class="swiper-caption">
+                <p class="text-dark"><span>Bluetooth</span></p>
+                <h2 class="text-dark">
+                  Up to 20% <br />
+                  off Voucher
+                </h2>
+                <div class="shop-now d-flex align-items-center text-dark">
+                  <a href="index.html"
+                     class="text-dark">Shop Now</a>
+                  <i class="fa-solid fa-arrow-right ps-3"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination custom-swiper-pagin"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ========= Banner Section End -->
+
+  <!-- ======================================
+                Flash Sales Section
+    ========================================-->
+
+  <section class="sales-offer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="today-items d-flex">
+            <span> </span>
+            <h5>Today's</h5>
+          </div>
+        </div>
+        <div class="col-md-9 col-sm-12">
+          <div class="posi-aero d-flex justify-content-between">
+            <div class="today-sal">
+              <div class="flash-sales-title">
+                <h3>Flash Sales</h3>
+              </div>
+
+              <!--  -->
+              <div class="start-time-duration d-flex"
+                   id="start-time-duration">
+                <div class="time d-flex">
+                  <div class="timer">
+                    <p>Days</p>
+                    <h3 id="days">08</h3>
+                  </div>
+                  <span class="time-start">:</span>
+                </div>
+
+                <!--  -->
+                <div class="time d-flex">
+                  <div class="timer">
+                    <p>Hours</p>
+                    <h3 id="hours">23</h3>
+                  </div>
+                  <span class="time-start">:</span>
+                </div>
+
+                <!--  -->
+                <div class="time d-flex">
+                  <div class="timer">
+                    <p>Minutes</p>
+                    <h3 id="minutes">19</h3>
+                  </div>
+                  <span class="time-start">:</span>
+                </div>
+
+                <!--  -->
+                <div class="time">
+                  <div class="timer">
+                    <p>Secound</p>
+                    <h3 id="seconds">56</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 costm-ico">
+          <div class="aero d-flex gap-4">
+            <div class="swiper-buttonprev pre-i"
+                 id="pre-i">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="swiper-buttonnext next-i"
+                 id="next-i">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="swiper mySwiper mySwiper-list">
+          <div class="swiper-wrapper product-list-main">
+            <div class="swiper-slide main-pro-tab">
+              <div class="custom-products-list">
+                <div class="offer">
+                  <p>-40%</p>
+                </div>
+                <div class="favr-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="eye-icon">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+
+                <div class="swi-img">
+                  <img src="assets/Images/Usb_Gamepad.png"
+                       alt="gamepad" />
+                </div>
+
+                <div class="prod-hov">
+                  <button class="btn btn-dark cust-btn">Add To Cart</button>
+                </div>
+              </div>
+
+              <div class="products-main-title">
+                <!-- <div class="pro-title"></div> -->
+                <h5>HAVIT HV-G92 Gamepad</h5>
+                <p>$120 <del>$160</del></p>
+                <div class="pro-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="star-totle">
+                    <p>(88)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--  -->
+            <div class="swiper-slide main-pro-tab">
+              <div class="custom-products-list">
+                <div class="offer">
+                  <p>-40%</p>
+                </div>
+                <div class="favr-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="eye-icon">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+
+                <img src="assets/Images/keybord.png"
+                     alt="keyboard" />
+
+                <div class="prod-hov">
+                  <button class="btn btn-dark cust-btn">Add To Cart</button>
+                </div>
+              </div>
+
+              <div class="products-main-title">
+                <div class="pro-title"></div>
+                <h5>HAVIT HV-G92 Gamepad</h5>
+                <p>$120 <del>$160</del></p>
+                <div class="pro-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="text-secondary"><i class="fa-solid fa-star"></i></span>
+                  </div>
+                  <div class="star-totle">
+                    <p>(88)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--  -->
+
+            <div class="swiper-slide main-pro-tab">
+              <div class="custom-products-list">
+                <div class="offer">
+                  <p>-40%</p>
+                </div>
+                <div class="favr-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="eye-icon">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+
+                <img src="assets/Images/led.png"
+                     alt="led" />
+
+                <div class="prod-hov">
+                  <button class="btn btn-dark cust-btn">Add To Cart</button>
+                </div>
+              </div>
+
+              <div class="products-main-title">
+                <div class="pro-title"></div>
+                <h5>HAVIT HV-G92 Gamepad</h5>
+                <p>$960 <del>$1160</del></p>
+                <div class="pro-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="star-totle">
+                    <p>(88)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--  -->
+            <div class="swiper-slide main-pro-tab">
+              <div class="custom-products-list">
+                <div class="offer">
+                  <p>-40%</p>
+                </div>
+                <div class="favr-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="eye-icon">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+
+                <img src="assets/Images/Usb_Gamepad.png"
+                     alt="Gamepad" />
+
+                <div class="prod-hov">
+                  <button class="btn btn-dark cust-btn">Add To Cart</button>
+                </div>
+              </div>
+              <div class="products-main-title">
+                <div class="pro-title"></div>
+                <h5>HAVIT HV-G92 Gamepad</h5>
+                <p>$370 <del>$400</del></p>
+                <div class="pro-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="star-totle">
+                    <p>(88)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--  -->
+            <div class="swiper-slide main-pro-tab">
+              <div class="custom-products-list">
+                <div class="offer">
+                  <p>-40%</p>
+                </div>
+                <div class="favr-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="eye-icon">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+
+                <img src="assets/Images/keybord.png"
+                     alt="keybord" />
+
+                <div class="prod-hov">
+                  <button class="btn btn-dark cust-btn">Add To Cart</button>
+                </div>
+              </div>
+              <div class="products-main-title">
+                <div class="pro-title"></div>
+                <h5>HAVIT HV-G92 Gamepad</h5>
+                <p>$375 <del>$400</del></p>
+                <div class="pro-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="star-totle">
+                    <p>(88)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--  -->
+            <div class="swiper-slide main-pro-tab">
+              <div class="custom-products-list">
+                <div class="offer">
+                  <p>-40%</p>
+                </div>
+                <div class="favr-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="eye-icon">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+
+                <img src="assets/Images/led.png"
+                     alt="led" />
+
+                <div class="prod-hov">
+                  <button class="btn btn-dark cust-btn">Add To Cart</button>
+                </div>
+              </div>
+              <div class="products-main-title">
+                <div class="pro-title"></div>
+                <h5>HAVIT HV-G92 Gamepad</h5>
+                <p>$375 <del>$400</del></p>
+                <div class="pro-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="star-totle">
+                    <p>(88)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--  -->
+            <div class="swiper-slide main-pro-tab">
+              <div class="custom-products-list">
+                <div class="offer">
+                  <p>-40%</p>
+                </div>
+                <div class="favr-icon">
+                  <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="eye-icon">
+                  <i class="fa-regular fa-eye"></i>
+                </div>
+
+                <img src="assets/Images/keybord.png"
+                     alt="keybord" />
+
+                <div class="prod-hov">
+                  <button class="btn btn-dark cust-btn">Add To Cart</button>
+                </div>
+              </div>
+              <div class="products-main-title">
+                <div class="pro-title"></div>
+                <h5>HAVIT HV-G92 Gamepad</h5>
+                <p>$120 <del>$160</del></p>
+                <div class="pro-star">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <div class="star-totle">
+                    <p>(88)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="btn-all-list">
+            <button type="button"
+                    class="btn btn-danger custom-btn-bs">
+              View All Products
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row-last"></div>
+    </div>
+  </section>
+
+  <!-- ====================================
+            Categories List Section
+    ======================================-->
+
+  <section class="categories-list-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="today-items d-flex">
+            <span> </span>
+            <h5>Categories</h5>
+          </div>
+        </div>
+
+        <!--  -->
+        <div class="posi-aero d-flex justify-content-between">
+          <div class="flash-sales-title cust-flash">
+            <h3 class="me-0">Browse By Category</h3>
+          </div>
+
+          <!--  -->
+          <div class="aero d-flex gap-4">
+            <div class="swiper-buttonprev pre-i"
+                 id="pre-i-c">
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div class="swiper-buttonnext next-i"
+                 id="next-i-c">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="swiper mySwiper-categories">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="categories-list">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <p>Phones</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="categories-list">
+                <i class="fa-solid fa-display"></i>
+                <p>Computers</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="categories-list">
+                <i class="fa-brands fa-apple"></i>
+                <p>SmartWatch</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="categories-list">
+                <i class="fa-solid fa-camera"></i>
+                <p>Camera</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="categories-list">
+                <i class="fa-solid fa-headphones"></i>
+                <p>HeadPhones</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="categories-list">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <p>Gaming</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="categories-list">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <p>Phones</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="categories-list">
+                <i class="fa-solid fa-display"></i>
+                <p>Computers</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="categories-list">
+                <i class="fa-brands fa-apple"></i>
+                <p>SmartWatch</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================
+            Selling Products Section
+    =====================================-->
+
+  <section class="list-sell">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="today-items d-flex">
+            <span></span>
+            <h5 class="ps-2">This Month</h5>
+          </div>
+        </div>
+        <div class="posi-aero d-flex justify-content-between">
+          <div class="today-sal">
+            <div class="flash-sales-title cust-flash">
+              <h3>Best Selling Products</h3>
+            </div>
+          </div>
+
+          <!--  -->
+          <div class="view-all-btn">
+            <button type="button"
+                    class="btn btn-danger custom-btn-bs">
+              View All
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="products-all-sell">
+            <div class="custom-products-sell">
+              <div class="favr-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="eye-icon">
+                <i class="fa-regular fa-eye"></i>
+              </div>
+
+              <img src="assets/Images/Coat.png"
+                   alt="Coat" />
+            </div>
+
+            <div class="products-main-title">
+              <h5>The north coat</h5>
+              <p>$260 <del>$360</del></p>
+              <div class="pro-star">
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="star-totle">
+                  <p>(65)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <div class="products-all-sell">
+            <div class="custom-products-sell">
+              <div class="favr-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="eye-icon">
+                <i class="fa-regular fa-eye"></i>
+              </div>
+
+              <img src="assets/Images/bag.png"
+                   alt="bag" />
+            </div>
+
+            <div class="products-main-title">
+              <h5>The north coat</h5>
+              <p>$260 <del>$360</del></p>
+              <div class="pro-star">
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="star-totle">
+                  <p>(65)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <!-- Products-one -->
+          <div class="products-all-sell">
+            <div class="custom-products-sell">
+              <div class="favr-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="eye-icon">
+                <i class="fa-regular fa-eye"></i>
+              </div>
+
+              <img src="assets/Images/cpu.png"
+                   alt="cpu" />
+            </div>
+
+            <div class="products-main-title">
+              <h5>The north coat</h5>
+              <p>$260 <del>$360</del></p>
+              <div class="pro-star">
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="star-totle">
+                  <p>(65)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-sm-6">
+          <!-- Products-one -->
+          <div class="products-all-sell">
+            <div class="custom-products-sell">
+              <div class="favr-icon">
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <div class="eye-icon">
+                <i class="fa-regular fa-eye"></i>
+              </div>
+
+              <img src="assets/Images/booksell.png"
+                   alt="booksell" />
+            </div>
+
+            <div class="products-main-title">
+              <h5>The north coat</h5>
+              <p>$260 <del>$360</del></p>
+              <div class="pro-star">
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="star-totle">
+                  <p>(65)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================================
+                Music Banner
+        ====================================-->
+
+  <section class="music-section">
+    <div class="container">
+      <div class="row">
+        <!-- Radio Content -->
+        <div class="col-lg-12 col-md-12 custom-banner flex-wrap">
+          <div class="col-lg-6 cust-radio-detail">
+            <div class="main-radio-banner">
+              <!-- Radio title -->
+              <div class="rad-title">
+                <p>Categories</p>
+              </div>
+
+              <!-- Radio Main Heading -->
+              <div class="rad-head">
+                <h3 class="text-white">
+                  Enhance Your <br />
+                  Music Experience
+                </h3>
+              </div>
+
+              <!-- Radio Main Heading -->
+              <div class="rad-time d-flex flex-wrap">
+
+                <div class="rad-time-sz">
+                  <h5>05</h5>
+                  <p>Days</p>
+                </div>
+
+                <div class="rad-time-sz">
+                  <h5>23</h5>
+                  <p>Hours</p>
+                </div>
+
+                <div class="rad-time-sz">
+                  <h5>59</h5>
+                  <p>Minutes</p>
+                </div>
+
+                <div class="rad-time-sz">
+                  <h5>35</h5>
+                  <p>Secound</p>
+                </div>
+              </div>
+
+              <!-- Radio button -->
+              <!-- <div class="rad-btn">
+                <button type="button"
+                        class="btn">Buy Now!</button>
+              </div>
+            </div> -->
+
+              <!-- Radio button -->
+              <!-- <div class="button_container">
+                <button type="button"
+                        class="btn btn-gr"><span>Buy Now!</span></button>
+              </div> -->
+
+              <div class="button_container">
+                <button class="btn"><span>Buy Now!</span></button>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Radio Image -->
+          <div class="col-lg-6 col-md-12">
+            <div class="radio-img">
+              <img src="assets/Images/Music-radio.png"
+                   alt="radio"
+                   loading="lazy"
+                   class="lazy-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================================
+            Explore Our Products
+    ========================================-->
+
+  <section class="explore-products">
+    <div class="container">
+      <!-- Explore Our Pro-Title -->
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="today-items d-flex">
+            <span></span>
+            <h5 class="ps-2">Our Products</h5>
+          </div>
+          <div class="posi-aero d-flex justify-content-between">
+            <div class="today-sal">
+              <div class="flash-sales-title cust-flash">
+                <h3>Explore Our Products</h3>
+              </div>
+            </div>
+            <!-- Next and Pre Icon -->
+            <div class="aero d-flex justify-content-end gap-4 cust-aero">
+              <div class="swiper-buttonprev pre-i"
+                   id="pre-i-exp">
+                <i class="fa-solid fa-arrow-left"></i>
+              </div>
+              <div class="swiper-buttonnext next-i"
+                   id="next-i-exp">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper mySwiper-explore">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <!-- Start Swiper Slide  -->
+            <div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <div class="our-pro-img">
+                    <img src="assets/Images/breed_dry_dog.png"
+                         alt="breed_dry_dog"
+                         class="img-fluid" />
+                  </div>
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="products-main-title">
+                  <h5>Breed Dry Dog Food</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$100</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(35)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <img src="assets/Images/Kids_Electric_Car.png"
+                       alt="Kids_Electric_Car"
+                       class="img-fluid" />
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="explore-products-title products-main-title">
+                  <h5>Kids Electric Car</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$100</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(35)</p>
+                    </div>
+                  </div>
+                  <div class="avctive-btn d-flex gap-2 mt-2">
+                    <div class="roun"></div>
+                    <div class="roun"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Slide -->
+          </div>
+
+          <div class="swiper-slide">
+            <!-- Start Swiper Slide  -->
+            <div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <div class="our-pro-img">
+                    <img src="assets/Images/camera.png"
+                         alt="camera"
+                         class="img-fluid" />
+                  </div>
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="products-main-title">
+                  <h5>CANON EOS DSLR Camera</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$360</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(95)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <img src="assets/Images/Soccer_Cleats.png"
+                       alt="Soccer"
+                       class="img-fluid" />
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="explore-products-title products-main-title">
+                  <h5>Jr. Zoom Soccer Cleats</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$1160</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(35)</p>
+                    </div>
+                  </div>
+                  <div class="avctive-btn d-flex gap-2 mt-2">
+                    <div class="roun"></div>
+                    <div class="roun"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Slide -->
+          </div>
+
+          <div class="swiper-slide">
+            <!-- Start Swiper Slide  -->
+            <div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <div class="our-pro-img">
+                    <img src="assets/Images/Laptop.png"
+                         alt="Laptop"
+                         class="img-fluid" />
+                  </div>
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="products-main-title">
+                  <h5>ASUS FHD Gaming Laptop</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$700</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(325)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <img src="assets/Images/Usb_Gamepad.png"
+                       alt="Gamepad"
+                       class="img-fluid" />
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="explore-products-title products-main-title">
+                  <h5>GP11 Shooter USB Gamepad</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$660</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(55)</p>
+                    </div>
+                  </div>
+                  <div class="avctive-btn d-flex gap-2 mt-2">
+                    <div class="roun"></div>
+                    <div class="roun"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Slide -->
+          </div>
+          <div class="swiper-slide">
+            <!-- Start Swiper Slide  -->
+            <div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <div class="our-pro-img">
+                    <img src="assets/Images/product_set.png"
+                         alt="product"
+                         class="img-fluid" />
+                  </div>
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="products-main-title">
+                  <h5>Curology Product Set</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$500</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(95)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <img src="assets/Images/Jacket.png"
+                       alt="Jacket"
+                       class="img-fluid" />
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="explore-products-title products-main-title">
+                  <h5>Jr. Zoom Soccer Cleats</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$660</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(55)</p>
+                    </div>
+                  </div>
+                  <div class="avctive-btn d-flex gap-2 mt-2">
+                    <div class="roun"></div>
+                    <div class="roun"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Slide -->
+          </div>
+          <div class="swiper-slide">
+            <!-- Start Swiper Slide  -->
+            <div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <div class="our-pro-img">
+                    <img src="assets/Images/breed_dry_dog.png"
+                         alt="breed-dry-dog"
+                         class="img-fluid" />
+                  </div>
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="products-main-title">
+                  <h5>Breed Dry Dog Food</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$100</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(35)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <img src="assets/Images/Kids_Electric_Car.png"
+                       alt="Electric-Car"
+                       class="img-fluid" />
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="explore-products-title products-main-title">
+                  <h5>Kids Electric Car</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$100</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(35)</p>
+                    </div>
+                  </div>
+                  <div class="avctive-btn d-flex gap-2 mt-2">
+                    <div class="roun"></div>
+                    <div class="roun"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Slide -->
+          </div>
+
+          <div class="swiper-slide">
+            <!-- Start Swiper Slide  -->
+            <div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <div class="our-pro-img">
+                    <img src="assets/Images/camera.png"
+                         alt="camera"
+                         class="img-fluid">
+                  </div>
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="products-main-title">
+                  <h5>CANON EOS DSLR Camera</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$360</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(95)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <img src="assets/Images/Soccer_Cleats.png"
+                       alt="Soccer"
+                       class="img-fluid" />
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="explore-products-title products-main-title">
+                  <h5>Jr. Zoom Soccer Cleats</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$1160</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(35)</p>
+                    </div>
+                  </div>
+                  <div class="avctive-btn d-flex gap-2 mt-2">
+                    <div class="roun"></div>
+                    <div class="roun"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Slide -->
+          </div>
+
+          <div class="swiper-slide">
+            <!-- Start Swiper Slide  -->
+            <div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <div class="our-pro-img">
+                    <img src="assets/Images/Laptop.png"
+                         alt="Laptop"
+                         class="img-fluid" />
+                  </div>
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="products-main-title">
+                  <h5>ASUS FHD Gaming Laptop</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$700</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(325)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <img src="assets/Images/Usb_Gamepad.png"
+                       alt="Gamepad"
+                       class="img-fluid" />
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="explore-products-title products-main-title">
+                  <h5>GP11 Shooter USB Gamepad</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$660</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(55)</p>
+                    </div>
+                  </div>
+                  <div class="avctive-btn d-flex gap-2 mt-2">
+                    <div class="roun"></div>
+                    <div class="roun"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Slide -->
+          </div>
+          <div class="swiper-slide">
+            <!-- Start Swiper Slide  -->
+            <div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <div class="our-pro-img">
+                    <img src="assets/Images/product_set.png"
+                         alt="set"
+                         class="img-fluid" />
+                  </div>
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="products-main-title">
+                  <h5>Curology Product Set</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$500</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star text-secondary"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(95)</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="explore-products">
+                <div class="explore-products-sell">
+                  <!-- Products Favright icon -->
+                  <div class="favr-icon">
+                    <i class="fa-regular fa-heart"></i>
+                  </div>
+
+                  <!-- Product View -->
+                  <div class="eye-icon">
+                    <i class="fa-regular fa-eye"></i>
+                  </div>
+
+                  <!-- Product Image -->
+                  <img src="assets/Images/Jacket.png"
+                       alt="Jacket" />
+
+                  <!-- Hover Button -->
+                  <div class="prod-hov">
+                    <button class="btn btn-dark cust-btn">Add To Cart</button>
+                  </div>
+                </div>
+
+                <div class="explore-products-title products-main-title">
+                  <h5>Jr. Zoom Soccer Cleats</h5>
+                  <div class="pro-star">
+                    <!-- Product Price -->
+                    <div class="price">
+                      <p>$660</p>
+                    </div>
+
+                    <!-- Product Start -->
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <!-- Products review -->
+                    <div class="star-totle">
+                      <p>(55)</p>
+                    </div>
+                  </div>
+                  <div class="avctive-btn d-flex gap-2 mt-2">
+                    <div class="roun"></div>
+                    <div class="roun"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Swiper Slide -->
+          </div>
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+      </div>
+      <!-- View All Products Button -->
+      <div class="v-a-p-btn">
+        <button type="button"
+                class="btn btn-danger custom-btn-bs">
+          View All Products
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================================
+            Arrival Section
+    =======================================-->
+
+  <section class="arrival">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="today-items d-flex">
+            <span></span>
+            <h5 class="ps-2">Featured</h5>
+          </div>
+          <div class="posi-aero d-flex justify-content-between">
+            <div class="today-sal">
+              <div class="flash-sales-title cust-flash">
+                <h3>New Arrival</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="spe-banner mt-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="black main-img">
+                <img src="assets/Images/playStation.png"
+                     alt=""
+                     class="img-fluid">
+                <div class="perfume-text">
+                  <h4 class="text-white">PlayStation 5</h4>
+                  <p class="text-white">
+                    Black and White version of the PS5
+                    <br />
+                    coming out on sale.
+                  </p>
+                  <div class="per-shop">
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="black mt-lg-0 mb-lg-1 my-2">
+                <img src="assets/Images/Women's-Collec.png "
+                     data-src="assets/Images/Women's-Collec.png"
+                     alt=""
+                     class="img-fluid">
+                <div class="perfume-girl-text">
+                  <h4 class="text-white">Women's Collections</h4>
+                  <p class="text-white">
+                    Featured woman collections that <br />
+                    give you another vibe.
+                  </p>
+                  <div class="per-shop">
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="black">
+                    <img src="assets/Images/speaker.png"
+                         alt=""
+                         class="img-fluid">
+                    <div class="speakers-text">
+                      <h4 class="text-white">Speakers</h4>
+                      <p class="text-white">Amazon wireless speakers</p>
+                      <div class="per-shop">
+                        <a href="#">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="black sub-img mt-md-0 mt-2">
+                    <img src="assets/Images/Perfume.png"
+                         alt=""
+                         class="img-fluid">
+                    <div class="gucci-perfume-text">
+                      <h4 class="text-white">Perfume</h4>
+                      <p class="text-white">GUCCI INTENSE OUD EDP</p>
+                      <div class="per-shop">
+                        <a href="#">Shop Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="arrival-banner">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="main-perfume">
+              <div class="perfume">
+                <div class="perfume-img">
+                  <img src="assets/Images/playStation.png"
+                       alt="perfume"
+                       class="img-fluid" />
+                </div>
+                <div class="perfume-text">
+                  <h4 class="text-white">PlayStation 5</h4>
+                  <p class="text-white">
+                    Black and White version of the PS5 <br />
+                    coming out on sale.
+                  </p>
+                  <div class="per-shop">
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="girl-perfume">
+              <div class="row">
+        
+                <div class="perfume-girl-text">
+                  <h4 class="text-white">Women's Collections</h4>
+                  <p class="text-white">
+                    Featured woman collections that <br />
+                    give you another vibe.
+                  </p>
+                  <div class="per-shop">
+                    <a href="#">Shop Now</a>
+                  </div>
+                </div>
+
+                <div class="perfume-girl-img">
+                  <img src="assets/Images/Women's-Collec.png"
+                       alt="perfume"
+                       class="img-fluid" />
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="speakers">
+                  <div class="speakers-text">
+                    <h4 class="text-white">Speakers</h4>
+                    <p class="text-white">Amazon wireless speakers</p>
+                    <div class="per-shop">
+                      <a href="#">Shop Now</a>
+                    </div>
+                  </div>
+
+                  <div class="speaker-img">
+                    <img src="assets/Images/speaker.png"
+                         alt="speakers"
+                         class="img-fluid" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="gucci-perfume">
+                  <div class="gucci-perfume-text">
+                    <h4 class="text-white">Perfume</h4>
+                    <p class="text-white">GUCCI INTENSE OUD EDP</p>
+                    <div class="per-shop">
+                      <a href="#">Shop Now</a>
+                    </div>
+                  </div>
+
+                  <div class="gucci-perfume-img">
+                    <img src="assets/Images/Perfume.png"
+                         alt="perfume" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </section>
+
+  <!-- ============= End New Arrival Section =============== -->
+
+  <!--=======================================
+                Delivery and Support 
+      ==========================================-->
+
+  <div class="delivery-item">
+    <div class="container">
+      <div class="support-service">
+        <div class="row">
+          <!--Fast Delivery -->
+          <div data-aos="zoom-in" data-aos-duration="3000" class="col-lg-4 col-md-6">
+            <div class="delivery d-flex flex-column justify-content-center align-items-center">
+              <div class="delivery-icon">
+                <span class="de-i"><i class="fa-solid fa-truck"></i></span>
+              </div>
+
+              <div class="delivery-title">
+                <h5>FREE AND FAST DELIVERY</h5>
+              </div>
+
+              <div class="delivery-text">
+                <p>Free delivery for all orders over $140</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Customer Service -->
+          <div class="col-lg-4 col-md-6 costom-customer-service">
+            <div class="delivery d-flex flex-column justify-content-center align-items-center">
+              <div class="delivery-icon">
+                <span class="de-i"><i class="fa-solid fa-headphones"></i></span>
+              </div>
+
+              <div class="delivery-title">
+                <h5>24/7 CUSTOMER SERVICE</h5>
+              </div>
+
+              <div class="delivery-text">
+                <p>Friendly 24/7 customer support</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Money Back Guarantee -->
+          <div class="col-lg-4 col-md-6 costom-money-back">
+            <div class="delivery d-flex flex-column justify-content-center align-items-center">
+              <div class="delivery-icon">
+                <span class="de-i"><i class="fa-solid fa-shield-halved"></i></span>
+              </div>
+
+              <div class="delivery-title">
+                <h5>MONEY BACK GUARANTEE</h5>
+              </div>
+
+              <div class="delivery-text">
+                <p>We return money within 30 days</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--======================================
+                    Footer
+    ========================================-->
+
+  <footer class="footer"
+          id="footer">
+    <div class="container">
+      <div class="row">
+        <!-- Page Footer -->
+        <div class="col-lg-3 col-md-6">
+          <div class="page-footer">
+            <!-- Order Footer  -->
+            <div class="order-footer">
+              <div class="footer-left">
+                <h1 class="text-light">Exclusive</h1>
+                <p class="mt-3 mb-3">Subscribe</p>
+                <p class="footer-left-text">Get 10% off your first order</p>
+              </div>
+
+              <div class="order-inp">
+                <input type="email"
+                       placeholder="Enter your email" />
+
+                <div class="email-send-i">
+                  <i class="fa-solid fa-paper-plane text-white"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page Footer -->
+        <div class="col-lg-2 col-md-6">
+          <div class="page-footer">
+            <!-- Support Footer  -->
+            <div class="order-footer">
+              <div class="footer-left">
+                <h5 class="mb-4">Support</h5>
+                <p class="footer-left-text">
+                  111 Bijoy sarani, Dhaka, <br />
+                  DH 1515, Bangladesh.
+                </p>
+                <p class="footer-left-text">exclusive@gmail.com</p>
+                <p class="footer-left-text">+88015-88888-9999</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page Footer -->
+        <div class="col-lg-2 col-md-4">
+          <div class="page-footer">
+            <!-- Account Footer  -->
+            <div class="order-footer">
+              <div class="footer-left">
+                <h5 class="mb-4">Account</h5>
+                <ul>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Login / Register</a></li>
+                  <li><a href="#">Cart</a></li>
+                  <li><a href="#">Wishlist</a></li>
+                  <li><a href="#">Shop</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page Footer -->
+        <div class="col-lg-2 col-md-4">
+          <div class="page-footer">
+            <!-- Account Footer  -->
+            <div class="order-footer">
+              <div class="footer-left">
+                <h5 class="mb-4">Quick Link</h5>
+                <ul>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Terms Of Use</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page Footer -->
+        <div class="col-lg-3 col-md-4">
+          <div class="page-footer">
+            <!-- Account Footer  -->
+            <div class="order-footer">
+              <div class="footer-right">
+                <h5 class="mb-4">Download App</h5>
+                <p class="muted costum-mute-p">
+                  Save $3 with App New User Only
+                </p>
+              </div>
+              <div class="apps d-flex justify-content-start align-items-center gap-2">
+                <div class="qr-code">
+                  <img src="assets/Images/Qr.png"
+                       alt="qr" />
+                </div>
+                <div class="apps-link">
+                  <div class="android-app d-flex p-1 justify-content-center align-items-center gap-2">
+                    <div class="playstore">
+                      <i class="fa-brands fa-google-play"></i>
+                    </div>
+                    <div class="android-text">
+                      <p>GET IT ONE</p>
+                      <h5>Google Play</h5>
+                    </div>
+                  </div>
+
+                  <div class="ios-link mt-1">
+                    <div class="ios-app d-flex p-1 justify-content-center align-items-center gap-2">
+                      <div class="ios-store">
+                        <i class="fa-brands fa-apple"></i>
+                      </div>
+                      <div class="android-text">
+                        <p>Download on the</p>
+                        <h5>App Store</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--  -->
+              <div class="social-icon">
+                <ul class="d-flex gap-4 text-white mt-4 fs-5">
+                  <li>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ End Footer ================= -->
+
+  <button onclick="topFunction()"
+          id="myBtn"
+          title="Go to top">
+    <i class="fa-solid fa-arrow-up top_arrow"></i>
+  </button>
+
+
+  <!--============ Button Down to up ==============-->
+  <script>
+    let mybutton = document.getElementById("myBtn");
+    window.onscroll = function () {
+      scrollFunction();
+    };
+    function scrollFunction() {
+      if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+      ) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+
+
+  <!-- Swiper Slider Js -->
+  <script src="assets/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".custom-swiper-slider", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: "#next",
+        prevEl: "#pre",
+      },
+    });
+    // My Swiper Products List
+    var swiper = new Swiper(".mySwiper-list", {
+      slidesPerView: "auto",
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: "#next-i",
+        prevEl: "#pre-i",
+      },
+
+      breakpoints: {
+        260: {
+          slidesPerView: 1,
+        },
+
+        400: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 35,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 45,
+        },
+      },
+    });
+
+    // My Swiper Explore
+    var swiper = new Swiper(".mySwiper-explore", {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: "#next-i-exp",
+        prevEl: "#pre-i-exp",
+      },
+
+      breakpoints: {
+        260: {
+          slidesPerView: 1,
+        },
+
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 35,
+        },
+        1024: {
+          slidesPerView: 4,
+          spaceBetween: 45,
+        },
+      },
+    });
+    // My Swiper Categories
+    var swiper = new Swiper(".mySwiper-categories", {
+      slidesPerView: 5,
+      spaceBetween: 10,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: "#next-i-c",
+        prevEl: "#pre-i-c",
+      },
+
+      breakpoints: {
+        260: {
+          slidesPerView: 1,
+        },
+
+        400: {
+          slidesPerView: 2,
+          spaceBetween: 15,
+        },
+
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 25,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 40,
+        },
+      },
+    });
+  </script>
+
+  <!-- ============= Timer Script =============== -->
+
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      // Output the result in an element with id="start-time-duration"
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
+
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("days").innerHTML = "00";
+        document.getElementById("hours").innerHTML = "00";
+        document.getElementById("minutes").innerHTML = "00";
+        document.getElementById("seconds").innerHTML = "00";
+      }
+    }, 1000);
+  </script>
+
+  <!-- ============== Active Css =============== -->
+
+
+
+  <script>
+    // Header Active Class Js Start
+
+    var header = document.getElementById("myDIV");
+    var btns = header.getElementsByClassName("nav-link");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        if (current.length > 0) {
+          current[0].className = current[0].className.replace(" active", "");
+        }
+        this.className += " active";
+      });
+    }
+// Header Active Class Js End
+  </script>
+<!-- 
+<script>
+  AOS.init();
+</script> -->
+
+  <!-- Script -->
+  <script src="assets/Bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/Bootstrap/js/popper.min.js"></script>
+  <script src="assets/Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

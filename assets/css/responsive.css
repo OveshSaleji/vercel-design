@@ -1,0 +1,674 @@
+/* Media Quarry */
+
+/* Media 350px */
+
+@media screen and (max-width: 350px) {
+  .search-box input {
+    font-size: 12px;
+  }
+
+  .search-box .search-icon {
+    font-size: 14px;
+  }
+
+  /* Radio Image */
+
+  .rad-time .rad-time-sz {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    margin-top: 10px;
+  }
+
+  .rad-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* ========== Gamepad =========== */
+
+  .game-star {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .new-mb {
+    margin-bottom: 10px;
+  }
+
+  /* ========= Wishlist =========== */
+  .custom-head {
+    flex-direction: column;
+  }
+
+  .custom-head h5 {
+    margin-bottom: 15px;
+  }
+
+  .related-pro {
+    margin-top: 30px;
+  }
+}
+
+/* Media 400px */
+
+@media screen and (max-width: 480px) {
+  /* Swiper Caption */
+
+  .swiper-caption {
+    position: absolute;
+    top: 20px !important;
+    left: 20px !important;
+    color: var(--text-color);
+    text-align: left;
+  }
+
+  .swiper-caption i {
+    font-size: 20px;
+    padding-right: 10px;
+  }
+
+  .swiper-caption p {
+    font-size: 16px;
+    font-family: var(--Poppins_Regular);
+  }
+
+  .swiper-caption h2 {
+    font-family: var(--Inter_Medium);
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .shop-now a {
+    font-size: 16px;
+  }
+
+  .swiper-caption p {
+    margin-bottom: 0 !important;
+  }
+
+  /* 
+  .custom-swiper-pagin {
+    position: absolute;
+    bottom: 0px !important;
+    padding: 5px;
+  } */
+
+  .cust-flash h3 {
+    font-family: var(--Inter_Bold);
+    font-size: 15px;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  /*  */
+
+  .today-items {
+    margin-top: 15px;
+  }
+
+  .flash-sales-title h3 {
+    font-family: var(--Inter_Bold);
+    font-size: 25px !important;
+    margin-right: 0;
+  }
+
+  .today-sal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timer p {
+    margin-bottom: 10 !important;
+    font-size: 12px;
+    font-family: var(--Poppins_Medium);
+    margin-top: 15px;
+  }
+
+  .timer h3 {
+    font-size: 20px !important;
+    font-family: var(--Inter_Bold);
+  }
+
+  .time-start {
+    margin-top: 5px !important;
+  }
+
+  /* Radio Banner */
+
+  .music-section {
+    margin-top: 30px;
+  }
+
+  .custom-banner {
+    padding: 20px;
+  }
+
+  .main-radio-banner .rad-title p {
+    font-size: 16px;
+  }
+
+  .main-radio-banner .rad-head h3 {
+    font-size: 30px !important;
+    line-height: 45px;
+  }
+
+  .rad-time .rad-time-sz {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    margin-right: 5px !important;
+  }
+
+  .rad-time .rad-time-sz h5 {
+    font-size: 12px;
+  }
+
+  .rad-time .rad-time-sz p {
+    font-size: 10px;
+  }
+
+  .swiper-slide img{
+    /* padding: 5px; */
+  }
+
+}
+
+/* Media 578px */
+
+@media screen and (max-width: 578px) {
+
+  .top-header,
+  .custom-lang {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .custom-lang a {
+    padding-left: 0;
+    padding-top: 10px;
+  }
+
+  /* Swiper Title */
+
+  .cust-flash h3 {
+    font-family: var(--Inter_Bold);
+    font-size: 25px !important;
+    margin-right: 0;
+    margin-bottom: 10px !important;
+  }
+
+  /* Radio Banner */
+
+  .main-radio-banner .rad-head h3 {
+    font-family: var(--Inter_Medium);
+    font-size: 40px;
+    line-height: 60px;
+    padding: 10px 0;
+  }
+
+  /*  */
+
+  .perfume-girl-img img {
+    width: 100%;
+  }
+
+  /*  */
+
+  .footer {
+    margin-top: 60px;
+    padding: 20px 0;
+  }
+
+  /* =========== About Us =============== */
+
+  .about-text h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+
+  /* ============ Contact Us ============== */
+
+  .cont-form {
+    padding: 10px;
+  }
+
+
+  /* =========== 404 Error Page ============ */
+
+  .error-page h2 {
+    font-size: 15px;
+  }
+
+  .error-page p {
+    font-size: 14px;
+  }
+
+
+}
+
+/* Media 768px */
+
+@media screen and (max-width: 768px) {
+  .top-header p {
+    font-size: 13px;
+    padding-left: 5px;
+    text-align: center;
+  }
+
+  .top-header a {
+    font-size: 13px;
+  }
+
+  .custom-btn-head button {
+    font-size: 14px;
+  }
+
+  .swiper-slide img {
+    margin-top: 0;
+  }
+
+  /* Swiper Captio */
+
+  .swiper-caption {
+    top: 40px;
+    left: 40px;
+  }
+
+  /* Timer */
+
+  .today-items {
+    margin-top: 30px;
+  }
+
+  .flash-sales-title h3 {
+    font-family: var(--Inter_Bold);
+    font-size: 35px;
+    margin-right: 0;
+  }
+
+  .today-sal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timer p {
+    margin-bottom: 10 !important;
+    font-size: 14px;
+    font-family: var(--Poppins_Medium);
+    margin-top: 15px;
+  }
+
+  .timer h3 {
+    font-size: 30px;
+    font-family: var(--Inter_Bold);
+  }
+
+  .time-start {
+    margin-top: 15px;
+  }
+
+  .gucci-perfume {
+    margin-top: 10px;
+  }
+
+  .costom-customer-service {
+    margin-top: 25px;
+  }
+
+  /* Login Page Responsive */
+
+  .log-section {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .create-acc {
+    margin-top: 30px;
+  }
+
+  /* Cart-footer */
+
+
+
+  /* =========== 404 Error Page ============ */
+
+  .error {
+    margin-top: 50px;
+  }
+
+  .error-page h2 {
+    font-size: 40px !important;
+  }
+
+  .error-page p {
+    font-size: 14px;
+  }
+
+}
+
+/* Media 992px */
+
+@media screen and (max-width: 992px) {
+  .custom-slide-option {
+    border-right: none;
+  }
+
+  .posi-aero {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .aero {
+    margin-top: 25px;
+    justify-content: center;
+  }
+
+  .cust-flash h3 {
+    font-family: var(--Inter_Bold);
+    font-size: 35px;
+    margin-right: 0;
+    margin-bottom: 20px !important;
+  }
+
+  /* Radio Image */
+
+  .main-radio-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cust-radio-detail {
+    width: 100%;
+  }
+
+  .rad-time .rad-time-sz {
+    margin-right: 10px;
+  }
+
+  .rad-head h3 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .rad-time .rad-time-sz h5 {
+    font-size: 14px;
+  }
+
+  .rad-time .rad-time-sz h5 br {
+    display: none;
+  }
+
+  .view-all-btn button {
+    margin-bottom: 25px;
+  }
+
+  /*  */
+
+  .girl-perfume {
+    /* background-color: transparent; */
+    margin-bottom: 10px;
+  }
+
+  .arrival-banner {
+    margin-top: 10px;
+  }
+
+  .perfume {
+    margin-bottom: 10px;
+  }
+
+  /* =====================================
+        Delivery and Support 
+    =======================================*/
+
+  .delivery-item {
+    margin-top: 50px;
+  }
+
+  .costom-money-back {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .perfume-text {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+  }
+
+  /* =====================================
+            Delivery and Support 
+        =======================================*/
+  .footer {
+    margin-top: 80px;
+    padding: 40px 0;
+  }
+
+  .page-footer {
+    margin-top: 50px;
+  }
+
+  .produ-mt {
+    margin-top: 40px;
+  }
+
+  .cart-footer {
+    margin-top: 35px;
+  }
+
+
+  tr td {
+    padding: 40px 6px 20px !important;
+  }
+
+  .bill-pro {
+    display: inline;
+  }
+
+  .cusm-card-shop {
+    margin-top: 25px;
+  }
+
+  .cusm-card {
+    width: 100% !important;
+    margin-top: 25px;
+  }
+
+  .card.cusm-card {
+    margin-top: 25px;
+    padding: 25px;
+  }
+
+  .card-body {
+    padding: 0 !important;
+  }
+
+  .save-data {
+    margin-top: 25px;
+  }
+
+  .about-text {
+    padding: 0;
+    margin-bottom: 50px;
+  }
+
+  /* ========= About Page =========== */
+
+  .about-text p {
+    text-align: justify;
+  }
+
+  .about-sales {
+    margin-top: 50px;
+  }
+
+  .about-staff {
+    margin-top: 50px;
+  }
+
+  .contact-us {
+    margin-top: 50px;
+  }
+
+  .form-cus {
+    margin-bottom: 10px;
+  }
+
+  .cont-form {
+    margin-top: 25px;
+  }
+
+  /* =========== 404 Error Page ============ */
+
+  .error-page h2 {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+
+  .error-page p {
+    font-size: 16px;
+  }
+
+  .error-page button {
+    margin-top: 20px;
+  }
+
+  /* ============= Delivery Page ============== */
+
+  .game-qunty {
+    flex-direction: row !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .btn-bor {
+    font-size: 14px;
+  }
+
+  .game-qunty .buy-btn button {
+    font-size: 14px;
+  }
+
+  .fav-btn {
+    font-size: 14px;
+  }
+
+  .game-details {
+    margin-top: 40px;
+  }
+
+  .sub-img img {
+    padding: 10px 10px !important;
+  }
+
+}
+
+@media (max-width:1200px) {
+  /* .game-qunty {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  } */
+
+  .custom-textarea textarea {
+    min-height: 226px !important;
+  }
+
+  .main-img img {
+    padding: 43px 10px;
+  }
+
+  .sub-img img {
+    padding: 15px 10px;
+  }
+}
+
+
+/* Table responsive */
+
+@media only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+  /* Force table to not be like tables anymore */
+  table,
+  thead,
+  tbody,
+  th,
+  td,
+  tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr {
+    border: 1px solid #ccc !important;
+  }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee !important;
+    position: relative;
+    padding-left: 50%;
+  }
+
+  td:before {
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+
+  /*
+	Label the data
+	*/
+  td:nth-of-type(1):before {
+    content: "Product";
+  }
+
+  td:nth-of-type(2):before {
+    content: "Price";
+  }
+
+  td:nth-of-type(3):before {
+    content: "Quantity";
+  }
+
+  td:nth-of-type(4):before {
+    content: "Subtotal";
+  }
+
+  table tr {
+    margin-top: 25px;
+  }
+
+  .cart {
+    margin-top: 30px;
+  }
+}
